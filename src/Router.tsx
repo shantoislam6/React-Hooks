@@ -19,7 +19,6 @@ export default function Router(): ReactNode {
                <Route index element={<Home />} />
                <Route path='/index' element={<Navigate to="/" replace={true}/>} />
                <Route path='/reacthooks' element={<Navigate to="/" replace={true}/>} />
-               <Route path='/reacthooks' element={<Navigate to="/" replace={true}/>} />
                <Route path='/useState' element={<UseState />} />
                <Route path='/useContext' element={<UseContext />} />
                <Route path='/useEffect/*' element={<UseEffect />} />
