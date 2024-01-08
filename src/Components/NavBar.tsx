@@ -42,7 +42,7 @@ export default function NavBar() {
       <hr />
       
       <div className="container">
-      <ModalProvider>
+         <ModalProvider>
             <Outlet />
          </ModalProvider>
       </div>

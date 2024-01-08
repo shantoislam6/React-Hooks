@@ -29,11 +29,11 @@ export default function UseEffect(): ReactNode {
 
       fetchData();
 
-      // return () => {
-      //    if (timeoutIdRef.current) {
-      //       clearTimeout(timeoutIdRef.current);
-      //    }
-      // };
+      return () => {
+         if (timeoutIdRef.current) {
+            clearTimeout(timeoutIdRef.current);
+         }
+      };
    }, [loading]);
 
    return (
